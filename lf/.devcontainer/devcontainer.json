@@ -20,7 +20,7 @@
     "customizations": {
 	"vscode": {
 	    "extensions": [
-		"maximedenes.vscoq"
+		"rocq-prover.vsrocq"
 	    ],
 	    "settings": {
 		"coqtop.binPath" : "/home/cis5000/.opam/4.14.0/bin",
