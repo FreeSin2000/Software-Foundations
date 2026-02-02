@@ -1,7 +1,19 @@
-# 忽略 Coq 编译生成的文件
+# Rocq 编译产物
 *.vo
 *.vok
+*.vos
 *.glob
+*.aux
+
+# 编译过程中产生的中间文件
+.*.aux
+.coq-globals
+*.native
+*.byte
+
+# 构建系统生成的辅助文件
+Makefile.conf
+_CoqProject.bak
 
 # 忽略临时文件和备份文件
 *~
